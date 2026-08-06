@@ -25,4 +25,7 @@ variable "cost_center" {
   description = "Cost center for billing allocation"
   type        = string
   default     = "engineering-platform"
+}variable    "test_var"   {
+  type = string
+  default = "x"
 }
